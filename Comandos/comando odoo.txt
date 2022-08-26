@@ -1,0 +1,23 @@
+cd C:\Program Files\Odoo\server
+
+"C:\Program Files\Odoo\python\python.exe" odoo-bin -c odoo.conf
+
+"C:\Program Files\Odoo\python\python.exe" odoo-bin -c odoo.conf -d odoo -u mrp
+
+invisible="0"/
+
+
+MODIFICAR 
+
+EGRAGAR
+
+A LAS BASE DE DATOS
+ QUE SE REFLEJA
+ 
+ EN LOS MODELOS
+ 
+ ACTUALIZAR EN VIEW
+ 
+ EN MODELOS
+ 
+ 

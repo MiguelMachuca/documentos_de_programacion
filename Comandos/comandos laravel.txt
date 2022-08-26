@@ -1,0 +1,54 @@
+# Desactivamos el módulo de PHP de la distribución:
+
+sudo yum module disable -y php
+
+# Y activamos la versión que nos interese del repositorio alternativo. Por ejemplo, si nos interesa trabajar con PHP 7.4 en Fedora 35:
+
+sudo yum module enable -y php:remi-7.4
+
+------------------------------------------------------------------------
+composer require spatie/laravel-backup
+
+
+composer create-project laravel/laravel mi-proyecto-laravelcomposer
+
+create-project laravel/laravel mi-proyecto-laravel
+
+composer install
+
+Name=ejemplo
+
+php artisan migrate:fresh
+php artisan route:list
+php artisan make:controller Name
+php artisan make:factory NameFactory --model=Name
+php artisan make:migration create_name_table
+php artisan make:model Name -mcr
+php artisan cache:clear
+php artisan config:clear
+php artisan config:cache
+php artisan backup:run
+
+php artisan migrate:fresh -seed
+
+
+$user->roles()->attach(1);
+$user->roles()->detach([1,2]);
+$user->roles()->sync([1,2]);
+
+composer require barryvdh/laravel-dompdf
+
+"agregar Procfile en la app antes de ponerlo en Heroku"
+
+chcon -R -t httpd_sys_rw_content_t [path to storage folder here]
+
+sudo chmod -R 755 HTML
+sudo chmod -R 777 html ///Todos los permisos
+
+push = insertar
+
+pull = incorporación de cambios
+
+si2grupo2@gmail.com
+grupo2sistemainformacion2@gmail.com
+Gsistemadeinformacion2@

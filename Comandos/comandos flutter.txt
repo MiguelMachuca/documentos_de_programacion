@@ -1,0 +1,5 @@
+flutter create -i swift -a kotlin --androidx --org=app.meedu hello_word
+
+flutter create native_demo
+
+flutter run
