@@ -1,0 +1,27 @@
+# Limpiar, optimizar y acelerar mi PC
+Win + R
+
+%temp%
+temp
+prefetch
+eventvwr
+
+# Visor de eventos, entrar a Registros de Windows, clic derecho vaciar registro borrar 
+
+# propiedades del disco C, ir a general, liberar espacio, colocar las casillas correspondientes y liberar
+
+# clic derecho, propiedades de Equipo, Configuración avanzada del sistema, opciones avanzadas, Rendimiento configuración, Efectos visuales, Ajustar para tener el mejor rendimiento.(Mostrar vistas en miniaturas en lugar de iconos)
+
+Win + R
+
+msconfig
+# Inicio Selectivo: cargar servicios del sistema, Cargar elementos de inicio
+# Arranque: tiempo de espera 30seg. a 15seg.
+# Opciones avanzadas de arranque, tickear Numero de Procesadores, colocar el numero de procesador mas alto.
+# Servicios: Tickear Ocultar todos los servicios de Microsoft
+# Inicio de Windows, administrador de tareas, deshabilitar los programas que no quieres que inicien al principio
+
+#Disco local C, Propiedades, Herramientas, Optimizar y desfragmentar unidad, Optimizar,(Tiene que decir Unidad de Disco Duro, no tiene que decir ssd o otra cosa), analizar, optimizar.
+
+
+
